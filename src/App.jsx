@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1> Cafes in Duluth, GA</h1>
+      <h1> Cafes To Check Out</h1>
       <Cafes />
     </div>
   )
