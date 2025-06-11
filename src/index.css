@@ -3,24 +3,35 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh; 
+  min-height: 100vh;
+  
 }
-
+h1{
+  background-color: white;
+  padding: 10px;
+  margin-top: 0px;
+  border: 2px solid rgb(81, 19, 13);
+  border-radius: 10px;
+  background-color:  rgb(190, 3, 3);
+  color: white;
+}
 .Event{
   padding: 5px;
-  background-color:white;
+  background-color:rgb(255, 255, 255);
   border: 2px solid black; 
   margin: 10px;
-  height: 300px;
+  height: 250px;
   width: 200px;
+  border-radius: 10px;
 }
 .Cafes{
   display: flex;
-  border: 2px solid black;
+  border: 2px solid rgb(81, 19, 13);
+  border-radius: 10px;
 }
 td{
   padding:10px;
-  background-color: rgb(179, 197, 212);
+  background-color: rgb(232, 225, 225);
 }
 
 a {
@@ -28,7 +39,7 @@ a {
   background-color:  rgb(190, 3, 3);
   border-radius: 25px;
   padding: 13px;
-  margin-top: 120px;
+  margin-top: 70px;
   display: block;
   text-decoration: none;
   color: white;
